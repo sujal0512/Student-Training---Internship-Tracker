@@ -1,0 +1,57 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff; /* Ensures all text is white */
+  background-color: #000; /* fallback */;
+}
+
+.animated-background {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #000000);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.glass-wrapper {
+  backdrop-filter: blur(14px);
+  background: rgba(44, 29, 175, 0.2);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  color: #ffffff; /* white font inside wrapper */
+}
+
+label {
+  color: #ffffff;
+}
+
+input.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+input.form-control::placeholder {
+  color: #cccccc;
+}
+
+.alert {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
