@@ -9,9 +9,8 @@ body, html {
 .animated-background {
   height: 100%;
   width: 100%;
-  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #000000);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
+  background-image: url("https://i.ibb.co/hRvY4ssv/durgapur-institute-of-management-and-science-bidhannagar-durgapur-institutes-for-bba-48pzk5d2cc.jpg" );
+  background-size: 100% 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -27,12 +26,12 @@ body, html {
 .glass-wrapper {
   backdrop-filter: blur(14px);
   background: rgba(44, 29, 175, 0.2);
-  border-radius: 16px;
+  border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
-  width: 90%;
-  max-width: 500px;
-  padding: 30px;
+  width: 180%;
+  max-width: 800px;
+  padding: 40px;
   color: #ffffff; /* white font inside wrapper */
 }
 
